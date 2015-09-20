@@ -1,0 +1,46 @@
+#header {
+    background-color: white;
+    background-image: -webkit-linear-gradient(top, white 0%, white 100%);
+}
+
+#name-and-slogan, #name-and-slogan a {
+    color: grey;
+}
+
+.float-right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* ----- Blog slideshow  ------*/
+
+/*div #views_slideshow_pager_field_item_bottom_blog_home_page-attachment_1_0 .views-slideshow-pager-field-item .views_slideshow_pager_field_item .views-row-odd .views-row-first {*/
+    /*display: inline !important;*/
+/*}*/
+
+/*div #widget_pager_bottom_blog_home_page-attachment_1 .views-slideshow-pager-fields .widget_pager .widget_pager_bottom .views_slideshow_pager_field .views-slideshow-pager-field-processed {*/
+    /*display: inline !important;*/
+/*}*/
+
+#block-system-main > div > div > div.attachment.attachment-before > div > div > div > div.views-slideshow-controls-bottom.clearfix {
+    display: inline !important;
+}
+
+div> #widget_pager_bottom_blog_home_page-attachment_1 {
+    display: inline !important;
+    background-color: red !important;
+}
+
+/* Active slideshow image */
+#views_slideshow_pager_field_item_bottom_blog_home_page-attachment_1_1 .views-slideshow-pager-field-item .views_slideshow_pager_field_item .views-row-even .active {
+    border: 3px solid #666;
+}
+
+/* Overall slideshow */
+#block-system-main > div > div > div.attachment.attachment-before > div {
+    margin-bottom: 80px;
+}
+
+
+
