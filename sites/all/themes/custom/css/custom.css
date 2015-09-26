@@ -3,10 +3,14 @@ p {
 }
 
 #header {
-  background-color: white;
+  background-color: white !important;;
+  background-image: -moz-linear-gradient(top, white 0%, white 100%);
+  background-image: -ms-linear-gradient(top, white 0%, white 100%);
+  background-image: -o-linear-gradient(top, white 0%, white 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, white));
   background-image: -webkit-linear-gradient(top, white 0%, white 100%);
+  background-image: linear-gradient(top, white 0%, white 100%);
 }
-
 #name-and-slogan, #name-and-slogan a {
   color: darkgrey;
 }
@@ -173,5 +177,5 @@ h2 .element-invisible {
 }
 
 #page-wrapper, #footer-wrapper {
-  background: white;
+  background-color: white;
 }
