@@ -172,6 +172,6 @@ h2 .element-invisible {
   border-top: 1px dashed #494954;
 }
 
-#footer-wrapper {
+#page-wrapper, #footer-wrapper {
   background: white;
 }
