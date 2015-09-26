@@ -171,3 +171,7 @@ h2 .element-invisible {
 .region-footer {
   border-top: 1px dashed #494954;
 }
+
+#footer-wrapper {
+  background: white;
+}
