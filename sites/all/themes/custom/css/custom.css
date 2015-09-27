@@ -179,3 +179,8 @@ h2 .element-invisible {
 #page-wrapper, #footer-wrapper {
   background-color: white;
 }
+
+/*Shift Cipher Game*/
+#edit-description {
+  display:none;
+}
