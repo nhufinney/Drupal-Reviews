@@ -24,14 +24,14 @@ margin-left: 10px;
 margin-bottom: 10px;
 }
 
+a:link {
+color: #4A004A !important;
+}
+
 a:hover, a:active {
   color: #FF9900 !important;
   text-decoration: none;
   font-style: italic;
-}
-
-a:link {
-  color: #4A004A !important;
 }
 
 /*imgage pager- below slideshow*/
