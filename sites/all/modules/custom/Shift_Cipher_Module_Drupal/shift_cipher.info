@@ -1,0 +1,5 @@
+name = Shift Cipher
+description = Encrypts string of words under the Shift Cipher role.
+package = Custom Modules
+core = 7.x
+files[] = shift_cipher.module
