@@ -39,6 +39,11 @@ a:hover, a:active {
 display: inline;
 }
 
+/*#views_slideshow_cycle_div_blog_home_page-attachment_1_0*/
+h2.field-content {
+  margin: 0 0 0.5em;
+}
+
 /*border for image pager- below slideshow*/
 .views-slideshow-pager-fields .active img{
 border: 3px solid #FF9900;
@@ -180,4 +185,13 @@ h2 .element-invisible {
 /*Shift Cipher Game*/
 #edit-description {
   display:none;
+}
+
+/*Menu content align in center*/
+#main-menu-links a {
+  float: none;
+}
+
+#main-menu-links li {
+  text-align: center;
 }
