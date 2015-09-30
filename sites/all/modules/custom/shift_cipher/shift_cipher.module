@@ -22,6 +22,11 @@ function shift_cipher_menu() {
 
 //create an input form
 function shift_cipher_form() {
+    $form['description'] = array(
+      '#type'=> 'textfield',
+      '#description' => t('It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, letter D would be replaced by A, E would become B, and so on.'),
+    );
+    
     $form['shift_value'] = array(
         '#title' => 'Shift value',
         '#type' => 'textfield',
